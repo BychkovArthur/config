@@ -1,0 +1,10 @@
+{
+    "editor.minimap.enabled": false,
+    "files.autoSave": "afterDelay",
+    "files.associations": {
+        "*.cpp": "cpp"
+    },
+    "C_Cpp.default.compilerPath": "/usr/bin/g++",
+    "C_Cpp.default.cStandard": "c17",
+    "C_Cpp.default.cppStandard": "c++17",
+}
