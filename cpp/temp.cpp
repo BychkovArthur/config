@@ -26,7 +26,7 @@ static const ll mod2 = 2'147'483'647;
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(0);
-
+    cout.tie(0);
     
     return 0;
 }
