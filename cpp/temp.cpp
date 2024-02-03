@@ -4,8 +4,8 @@
 
 using namespace std;
 
-using ll = signed long long int;
-using ull = unsigned long long int;
+using ll = int64_t;
+using ull = uint64_t;
 using vi = vector<int>;
 using vll = vector<ll>;
 using pii = pair<int, int>;
@@ -19,9 +19,6 @@ using uset = unordered_set<_Value>;
 static const ll mod1 = 1'000'000'007;
 static const ll mod2 = 2'147'483'647;
 
-/*
-    TODO: шаблонный swap
-*/
 
 int main() {
     ios::sync_with_stdio(false);
