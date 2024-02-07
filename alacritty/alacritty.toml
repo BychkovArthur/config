@@ -1,0 +1,53 @@
+import = [
+	"~/.config/alacritty/alacritty-theme/themes/tender.toml",
+]
+
+
+# working_directory = "/home/mason/Desktop"
+
+
+[shell]
+	program = "/bin/zsh"
+	# program = "/bin/fish"
+	args = []
+
+
+[window]
+	padding = { x = 3, y = 3 }
+	dynamic_padding = true
+	opacity = 1
+	# opacity = 0.8
+	# blur = true
+	# decorations = "None"
+	title = ""                # If turn this off, the title
+	dynamic_title = false     # will be the current path
+	decorations_theme_variant = "Dark"
+
+
+[colors]
+	primary = { foreground = "#FFF8DC" }
+	# cursor = { text = "CellBackground", cursor = "#FDF4E3" }
+
+
+[cursor]
+	style = { shape = "Block" }
+	unfocused_hollow = true
+	thickness = 0.1
+
+
+[font]
+	size = 16.0
+	normal =      { family = "MesloLGS NF", style = "Regular" }
+	bold =        { family = "MesloLGS NF", style = "Bold" }
+	italic =      { family = "MesloLGS NF", style = "Italic" }
+	bold_italic = { family = "MesloLGS NF", style = "Bold Italic" }
+
+
+[mouse]
+	# hide_when_typing = true
+
+
+[keyboard]
+	bindings = [
+		{ key = "v", mods = "Control", action = "Paste" },
+	]
