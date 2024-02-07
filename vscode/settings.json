@@ -8,6 +8,5 @@
     "C_Cpp.default.cStandard": "c17",
     "C_Cpp.default.cppStandard": "c++17",
 
-    "_comment": "1-й параметр наш шрифт. Второй параметр - дополнительных шрифт с названием monospace, третье - семейство шрифтов monospace, если ни какой из двух выше не подошёл. https://developer.mozilla.org/en-US/docs/Web/CSS/font-family"
     "editor.fontFamily": "'MesloLGS NF', 'monospace', monospace", 
 }
