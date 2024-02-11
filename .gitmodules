@@ -1,6 +1,4 @@
 [submodule "alacritty/alacritty-theme"]
 	path = alacritty/alacritty-theme
 	url = https://github.com/alacritty/alacritty-theme.git
-[submodule "zsh/oh-my-zsh-git"]
-	path = zsh/oh-my-zsh-git
-	url = https://github.com/ohmyzsh/ohmyzsh.git
+
