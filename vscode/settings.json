@@ -8,5 +8,6 @@
     "C_Cpp.default.cStandard": "c17",
     "C_Cpp.default.cppStandard": "c++17",
 
-    "editor.fontFamily": "'MesloLGS NF', 'monospace', monospace", 
+    "editor.fontFamily": "'MesloLGS NF', 'monospace', monospace",
+    "terminal.integrated.defaultProfile.linux": "zsh",
 }
