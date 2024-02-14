@@ -22,6 +22,7 @@ import = [
 	title = ""                # If turn this off, the title
 	dynamic_title = false     # will be the current path
 	decorations_theme_variant = "Dark"
+ 	position = { x = 580, y = 250 }
 
 
 [colors]
