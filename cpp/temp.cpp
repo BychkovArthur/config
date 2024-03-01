@@ -1,6 +1,10 @@
 #include <bits/stdc++.h>
 
 #define all(x) (x).begin(), (x).end()
+#define max2(x, y) (x > y ? x : y)
+#define min2(x, y) (x < y ? x : y)
+#define max3(x, y, z) (x > max2(y, z) ? x : max2(y, z))
+#define min3(x, y, z) (x < min2(y, z) ? x : min2(y, z))
 
 using namespace std;
 
@@ -24,5 +28,6 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(NULL);
     
+
     return 0;
 }
