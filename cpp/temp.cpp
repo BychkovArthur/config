@@ -23,11 +23,50 @@ using uset = unordered_set<_Value>;
 static const ll mod1 = 1'000'000'007;
 static const ll mod2 = 2'147'483'647;
 
+/*
+    IO
+*/
+
+template<typename T, typename V>
+ostream& operator<<(ostream& os, pair<T, V> pr) {
+    os << pr.first << ", " << pr.second;
+    return os;
+}
+
+template<typename Container, typename = void>
+struct is_map : std::false_type {};
+
+template<typename K, typename V>
+struct is_map<map<K, V>> : std::true_type {};
+
+template<typename K, typename V>
+struct is_map<umap<K, V>> : std::true_type {};
+
+template<typename Container>
+typename std::enable_if<!is_map<Container>::value>::type
+print(const Container& container) {
+    for (const auto& elem : container) {
+        cout << elem << ' ';
+    }
+    cout << endl;
+}
+
+template<typename Map>
+typename std::enable_if<is_map<Map>::value>::type
+print(const Map& mp) {
+    for (const auto& kv : mp) {
+        cout << kv.first << " : " << kv.second << '\n';
+    }
+    cout << endl;
+}
+
+/*
+    IO
+*/
 
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(NULL);
-    
 
     return 0;
 }
