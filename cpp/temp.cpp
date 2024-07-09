@@ -14,6 +14,8 @@ using vi = vector<int>;
 using vll = vector<ll>;
 using pii = pair<int, int>;
 using pll = pair<ll, ll>;
+using matrix = vector<vector<int>>;
+using matrixll = vector<vector<ll>>;
 
 template <typename _Key, typename _Tp>
 using umap = unordered_map<_Key, _Tp>;
