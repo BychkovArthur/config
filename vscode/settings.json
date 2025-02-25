@@ -4,10 +4,36 @@
     "files.associations": {
         "*.cpp": "cpp"
     },
+
+
     "C_Cpp.default.compilerPath": "/usr/bin/g++",
     "C_Cpp.default.cStandard": "c17",
-    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.default.cppStandard": "c++20",
 
     "editor.fontFamily": "'MesloLGS NF', 'monospace', monospace",
     "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Gruvbox Dark Soft",
+    "cmake.configureSettings": {
+
+    },
+    "cmake.options.statusBarVisibility": "visible",
+    "terminal.external.linuxExec": "alacritty",
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "chat.commandCenter.enabled": false,
+    "workbench.editor.empty.hint": "hidden",
+
+
+    "terminal.integrated.commandsToSkipShell" :[
+        "workbench.view.explorer",                   // У меня на это стоит бинд ctrl+e. Это в терминале должно делать переход к концу строки.
+                                                     // Бинды в alacritty тут: https://alacritty.org/config-alacritty-bindings.html
+        "workbench.action.toggleSidebarVisibility"   // ctrl+b. Это вернуться на символ назад.
+    ],
+    "explorer.confirmDelete": false
 }
