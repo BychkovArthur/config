@@ -74,7 +74,8 @@
     /* Фокус на терминале */
     {
         "key":     "ctrl+n",
-        "command": "workbench.action.terminal.focus"
+        "command": "workbench.action.terminal.focus",
+        "when": "!terminalFocus"
     },
 
 
@@ -381,5 +382,9 @@
         "key": "shift+alt+f12",
         "command": "-references-view.findReferences",
         "when": "editorHasReferenceProvider"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "-workbench.action.quickOpen"
     }
 ]
