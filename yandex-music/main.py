@@ -1,7 +1,11 @@
 from yandex_music import Client
 from datetime import datetime
+from dotenv import load_dotenv
 from time import sleep
 from os import getenv
+
+
+load_dotenv()
 
 
 VALID_BITRATE = [320, 192]
