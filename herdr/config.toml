@@ -1,0 +1,52 @@
+onboarding = false
+[theme]
+name = "gruvbox"
+auto_switch = false
+
+
+[keys]
+prefix = "ctrl+b"
+
+help = ["prefix+?", "prefix+comma", "prefix+shift+comma", "prefix+shift+period"]
+settings = ["prefix+s", "prefix+ы"]
+detach = ["prefix+q", "prefix+й"]
+reload_config = ["prefix+shift+r", "prefix+shift+к"]
+open_notification_target = ["prefix+o", "prefix+щ"]
+
+workspace_picker = ["prefix+w", "prefix+ц"]
+goto = ["prefix+g", "prefix+п"]
+new_workspace = ["prefix+shift+n", "prefix+shift+т"]
+new_worktree = ["prefix+shift+g", "prefix+shift+п"]
+rename_workspace = ["prefix+shift+w", "prefix+shift+ц"]
+close_workspace = ["prefix+shift+d", "prefix+shift+в"]
+
+new_tab = ["prefix+c", "prefix+с"]
+rename_tab = ["prefix+shift+t", "prefix+shift+е"]
+previous_tab = ["prefix+p", "prefix+з"]
+next_tab = ["prefix+n", "prefix+т"]
+close_tab = ["prefix+shift+x", "prefix+shift+ч"]
+
+rename_pane = ["prefix+shift+p", "prefix+shift+з"]
+edit_scrollback = ["prefix+e", "prefix+у"]
+copy_mode = ["prefix+[", "prefix+х"]
+
+focus_pane_left = ["prefix+h", "prefix+р"]
+focus_pane_down = ["prefix+j", "prefix+о"]
+focus_pane_up = ["prefix+k", "prefix+л"]
+focus_pane_right = ["prefix+l", "prefix+д"]
+
+swap_pane_left = ["prefix+shift+h", "prefix+shift+р"]
+swap_pane_down = ["prefix+shift+j", "prefix+shift+о"]
+swap_pane_up = ["prefix+shift+k", "prefix+shift+л"]
+swap_pane_right = ["prefix+shift+l", "prefix+shift+д"]
+
+split_vertical = ["prefix+v", "prefix+м"]
+close_pane = ["prefix+x", "prefix+ч"]
+zoom = ["prefix+z", "prefix+я"]
+resize_mode = ["prefix+r", "prefix+к"]
+toggle_sidebar = ["prefix+b", "prefix+и"]
+
+navigate_pane_left = ["h", "р"]
+navigate_pane_down = ["j", "о"]
+navigate_pane_up = ["k", "л"]
+navigate_pane_right = ["l", "д"]
