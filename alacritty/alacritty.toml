@@ -51,4 +51,5 @@ import = [
 [keyboard]
 	bindings = [
 		{ key = "v", mods = "Control", action = "Paste" },
+		{ key = "И", mods = "Control", chars = "\u0002" } # Only for herdr
 	]
